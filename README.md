@@ -1,4 +1,4 @@
-#📡 Charge Amplifier with Selectable Gain using Arduino
+# 📡 Charge Amplifier with Selectable Gain using Arduino
 This project implements a charge amplifier circuit interfaced with an Arduino to allow dynamic selection of gain using software. It is particularly useful for interfacing with piezoelectric sensors and other charge-based signal sources in precision measurement or sensing systems.
 
 🔧 Features
