@@ -99,7 +99,13 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
+📫 Contact
 
+For questions, collaboration, or feedback:
+
+Open an issue on GitHub
+
+Or contact the developer via email (rlharrini@gmail.com) or via LinkedIn (www.linkedin.com/in/harrinirl26)
 ---
 
 > "Measuring the invisible currents that shape the future of particle science."
