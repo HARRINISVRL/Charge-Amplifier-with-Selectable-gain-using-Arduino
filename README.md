@@ -52,7 +52,7 @@ This project is a simple but effective tool to:
 (wait 3 sec...)
 > 2
 (Output pin D3 is set HIGH, others LOW)
-
+```
 
 <img width="857" alt="image" src="https://github.com/user-attachments/assets/e8854b88-c2a2-485b-bc1c-0df9b221f8ea" />
 
