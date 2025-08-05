@@ -99,12 +99,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-## 📫 Contact
-
-For questions, collaboration, or feedback:
-
-* Open an issue on GitHub
-* Or contact the developer via email ([you@example.com](mailto:you@example.com))
 
 ---
 
