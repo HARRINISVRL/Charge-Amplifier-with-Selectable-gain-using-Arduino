@@ -18,3 +18,13 @@ This project implements a charge amplifier circuit interfaced with an Arduino to
 | N-channel MOSFETs / Analog switches       | 3        |
 | Breadboard and jumper wires               | -        |
 | Power supply (5V or dual ±12V for op-amp) | 1        |
+
+# ⚙️ Circuit Description
+
+The charge amplifier converts a small charge \( Q \) input into a voltage output:
+
+$$ 
+V_{\text{out}} = \frac{Q}{C_f} 
+$$
+
+where \( C_f \) is the feedback capacitance. By switching between multiple capacitors (\( C_1, C_2, C_3 \)), the gain can be altered. Arduino controls these capacitors via digital I/O, using MOSFETs or analog switches to connect/disconnect them.
