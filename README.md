@@ -1,6 +1,57 @@
-The objective of this project is to create a current amplifier that can convert the input current into voltage and amplify the voltage flowing through the circuit. 
-The amplifier should have a selectable gain feature, which means that the user can choose the amount of amplification required by selecting the resistor. 
-The gain selection could be done through a Graphical User Interface (GUI) display.
+# ⚡ Voltage Gain Controller using Arduino
+
+Measure. Calculate. Control.  
+A minimal yet powerful Arduino-based system that lets you measure voltage, calculate gain, and switch outputs—all through a serial interface.
+
+---
+
+## 🚀 Project Overview
+
+This project is a simple but effective tool to:
+
+✅ Read analog voltage from a sensor or input source  
+✅ Calculate gain based on user-defined input voltage  
+✅ Control output pins to select gain modes (or any user-defined function)  
+✅ Interact via **Serial commands** (compatible with Serial Monitor or Nextion displays)
+
+---
+
+## 🧠 How It Works
+
+### 📥 Input
+- Analog voltage is read from **A7**
+- Input voltage is entered via Serial
+
+### 📤 Output
+- Output voltage (`Vout`) is printed on command
+- Gain = Vout / Vin is calculated
+- Based on selection, **one of D2–D5** is set HIGH (others LOW)
+
+---
+
+## 🔧 Supported Serial Commands
+
+| 🔤 Command | 🧾 Description |
+|-----------|----------------|
+| `Vout`    | Displays the real-time analog voltage at pin A7 |
+| `input`   | Takes user input voltage after delay, calculates and prints gain |
+| `gain`    | Waits for value `1` to `4` and activates corresponding digital output |
+
+### 📟 Example Usage
+
+```plaintext
+> Vout
+< t1.txt="3.12 V"
+
+> input
+(wait 5 sec...)
+> 2.00
+< t6.txt="1.56"
+
+> gain
+(wait 3 sec...)
+> 2
+(Output pin D3 is set HIGH, others LOW)
 
 
 <img width="857" alt="image" src="https://github.com/user-attachments/assets/e8854b88-c2a2-485b-bc1c-0df9b221f8ea" />
