@@ -58,22 +58,7 @@ Users interact with the GUI to select gain. The system then adjusts the HEF4066B
 
 ---
 
-## 📂 Repository Structure
 
-```
-Charge-Amplifier-with-Selectable-gain-using-Arduino/
-├── ArduinoCode/
-│   └── amplifier.ino
-├── GUI/
-│   └── nextion_gui.hmi
-├── Docs/
-│   └── schematic.pdf
-│   └── block_diagram.png
-├── LICENSE
-└── README.md
-```
-
----
 
 ## 🚀 Getting Started
 
